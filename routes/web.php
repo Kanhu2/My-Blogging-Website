@@ -7,6 +7,9 @@ use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [UserController::class, 'showDataInHome'])->name('home');
+Route::view('/about', 'about')->name('about');
+Route::view('/contact', 'contact')->name('contact');
+Route::view('/blog', 'blog')->name('blog');
 Route::get('/fullpost/{id}', [UserController::class, 'showFullPost'])->name('fullpost');
 
 Route::get('/dashboard', [UserController::class, 'home'])
