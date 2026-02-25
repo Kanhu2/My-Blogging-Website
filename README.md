@@ -59,7 +59,7 @@ This project allows users to register, login, create blog posts about programmin
 - Store Comments in Database  
 - Store Comments Likes in Database  
 
-### 📄 Static Pages
+### 📄 All Pages
 - Home Page  (Dynamic Page)
 - Blog Page  
 - About Page  
